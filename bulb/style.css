@@ -1,0 +1,42 @@
+body {
+  font-family: Verdana, sans-serif;
+  background-color: white;
+}
+
+.container {
+  /* border: 2px solid red; */
+  width: 500px;
+  /* height: 200px; */
+  margin: 5rem 28rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: absolute; */
+  /* background-color: black; */
+}
+
+img {
+  width: 50%;
+  object-fit: fill;
+}
+
+.btn_on,
+.btn_off {
+  color: black;
+  margin-top: 20rem;
+  font: bold;
+  font-size: 2rem;
+  cursor: pointer;
+  background: transparent;
+  transition: 0.3s ease;
+  border: none;
+}
+
+.btn_off:hover,
+.btn_on:hover {
+  background-color: rgba(141, 138, 138, 0.8);
+}
+
+.active {
+  background-color: #717171;
+}
